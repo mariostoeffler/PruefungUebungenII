@@ -1,27 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35775159-7803-4ad7-a5b2-661387173775" name="Changes" comment="" />
+    <list default="true" id="35775159-7803-4ad7-a5b2-661387173775" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/EinwohnerUEAbend/DataFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EinwohnerUEAbend/Einwohner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EinwohnerUEAbend/EinwohnerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EinwohnerUEAbend/GeburtenJahrComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/TransactionObjectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/TransactionObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ue1_selber/AlterComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ue1_selber/AlterComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ue1_selber/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ue1_selber/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ue1_selber/StudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ue1_selber/StudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ue1_selber/StudentLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ue1_selber/StudentLoadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ue1_selber/StudentLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ue1_selber/StudentLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/PriceProductComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/PriceProductComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/TransactionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/TransactionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/TransactionLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/TransactionLoadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/TransactionLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/TransactionLoader.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2PSpYvTQ43pNmrYicmMb991Du3j" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mario/IdeaProjects/PruefungUebungenII/src/ue1_selber&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ÜBUNGSBEISPIELTRANSACTIONS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mario\IdeaProjects\PruefungUebungenII\src\ue1_selber" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EinwohnerManager">
+    <configuration name="EinwohnerManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EinwohnerUEAbend.EinwohnerManager" />
+      <module name="PruefungUebungenII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EinwohnerUEAbend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ue1_selber.StudentDemo" />
+      <module name="PruefungUebungenII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ue1_selber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ÜBUNGSBEISPIELTRANSACTIONS.TransactionDemo" />
+      <module name="PruefungUebungenII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ÜBUNGSBEISPIELTRANSACTIONS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EinwohnerManager" />
+        <item itemvalue="Application.TransactionDemo" />
+        <item itemvalue="Application.StudentDemo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +120,32 @@
       <updated>1683460388052</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ÜBUNGSBEISPIELTRANSACTIONS/PriceProductComparator.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PruefungUebungenII$StudentDemo.ic" NAME="StudentDemo Coverage Results" MODIFIED="1683473382993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ue1_selber.*</FILTER>
+    </SUITE>
   </component>
 </project>
