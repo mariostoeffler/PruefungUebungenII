@@ -8,22 +8,6 @@ import java.util.ArrayList;
 
 public class PersonLoader {
 
-    public static void main(String[] args) throws PersonLoadException {
-        PersonLoader pl = new PersonLoader("C:\\Users\\Mario\\IdeaProjects\\PruefungUebungenII\\src\\PersonsUEAbend\\persons.csv");
-        try {
-            ArrayList<Person> newlist = pl.load();
-
-            for (Person person : newlist) {
-                System.out.println(person.toString());
-            }
-
-
-        } catch (PersonLoadException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new PersonLoadException("Fehler beim Einlesen", e);
-        }
-    }
 
     private String path;
 
