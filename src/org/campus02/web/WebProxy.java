@@ -1,9 +1,6 @@
 package org.campus02.web;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.ObjectInputStream;
+import java.io.*;
 
 public class WebProxy {
 
@@ -24,19 +21,18 @@ public class WebProxy {
     }
 
     public WebPage fetch(String url) throws UrlLoaderException, CacheMissException {
-        if (cache.getCache().containsKey(url)) {
-            numCacheHits++;
-            return cache.readFromCache(url);
+       try {
+           WebPage webPage = cache.readFromCache(url);
+           numCacheHits++;
+           return webPage;
+       }
+       catch (CacheMissException e) {
+           System.out.println("not found in cache!" + e);
+           WebPage page = UrlLoader.loadWebpage(url);
+           cache.writeToCache(page);
+           return page;
+       }
 
-        }
-        else {
-            numCacheMisses++;
-            cache.writeToCache(UrlLoader.loadWebpage(url));
-            throw new CacheMissException("Fehler");
-
-
-
-        }
 
 
 
@@ -52,10 +48,20 @@ public class WebProxy {
         return "stats misses: "+numCacheMisses;
     }
 
-    public boolean writePageCacheToFile(String pathToFile) {
-        try (BufferedReader br = new BufferedReader(new FileReader(pathToFile));
-        BufferedWriter bw = new BufferedWriter()) {
+    public boolean writePageCacheToFile(String pathToFile) throws IOException {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(pathToFile))) {
 
+            for (String url : cache.getCache().keySet()) {
+                WebPage webPage = cache.getCache().get(url);
+                bw.write(url + ";" + webPage.getContent());
+                bw.newLine();
+            }
+            bw.flush();
+            return true;
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
         }
     }
 }

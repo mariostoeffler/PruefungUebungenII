@@ -13,16 +13,20 @@ public class UrlLoader {
 
         try {
             URL myURL = new URL(url);
+            String line;
             try (BufferedReader br = new BufferedReader(new InputStreamReader(myURL.openStream()))) {
-                String content = br.lines().collect(Collectors.joining(System.lineSeparator()));
-                return new WebPage(url, content);
-            } catch (IOException e) {
-                throw new UrlLoaderException("Fehler beim Lesen", e);
+                    String content = br.lines().collect(Collectors.joining());
+                    return new WebPage(url, content);
+            }
+
+
+            catch (IOException e) {
+                throw new UrlLoaderException(url, e);
             }
 
 
         } catch (MalformedURLException e) {
-            throw new UrlLoaderException("Fehler beim Laden der Website", e);
+            throw new UrlLoaderException(url, e);
         }
 
 

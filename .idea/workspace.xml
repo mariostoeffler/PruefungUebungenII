@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35775159-7803-4ad7-a5b2-661387173775" name="Changes" comment="before Server communication;">
-      <change afterPath="$PROJECT_DIR$/src/ChatServerUE/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChatServerUE/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ECommerce/src/org/campus02/ecom/BasketDataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ECommerce/src/org/campus02/ecom/DataFileException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersonsUEAbend/PersonClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersonsUEAbend/PersonServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TimeServerUE/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TimeServerUE/TimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/web/CacheMissException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/web/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/web/PageCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/web/UrlLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/web/UrlLoaderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/web/WebPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/web/WebProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/web/demo_urls.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/web/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonsUEAbend/ClientCommunication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonsUEAbend/ClientCommunication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonsUEAbend/PersonLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonsUEAbend/PersonLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/web/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/web/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/web/UrlLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/web/UrlLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/web/WebProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/web/WebProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
